@@ -11,6 +11,11 @@ header {
 	padding: 10px 0;
 	background: $colorOne;
 	height: 50px;
+	transition: all 0.3s ease-in-out;
+
+	&.nav-up {
+    	top: -120px;
+	}
 
 	.logo img {
 		width: 160px;
@@ -34,7 +39,7 @@ header {
 
 	.menu {
 		margin-top:8px;
-		margin-right: 10px;
+		margin-right: 50px;
 
 		ul li  {
 			margin-right: 25px;
@@ -96,6 +101,10 @@ header {
 		.col-3 {
 			width: 100%;
 
+		}
+
+		.logo img {
+			width: 130px;
 		}
 
 		.col-3 img {

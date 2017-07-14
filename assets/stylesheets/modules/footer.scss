@@ -28,11 +28,29 @@ footer {
 		padding-bottom: 2px;
 	}
 
+	.right {
+		float: right;
+
+		.js-to-top {
+			text-align: right;
+			float: right;
+		}
+	}
+
 	@include mq("small", "max-width") {
 		p, a {
 			margin: 10px 0;
 			display: block;
 			width: intrinsic;
 		}
+
+		.right {
+			float: left;
+
+		.js-to-top {
+			text-align: left;
+			float: left;
+		}
+	}
 	}
 }

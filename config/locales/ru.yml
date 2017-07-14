@@ -1,6 +1,8 @@
 ru:
-  hello_astana: "Hello Astana - ru"
-  home_title: "Hello Astana - ru"
+  logo: <img src="/images/ru-logo.png"/>
+
+  hello_astana: "Hello Astana - kz"
+  home_title: "Hello Astana - kz"
   
   description: "Hello Lamp Post ran for six weeks in November and December 2016, bringing Queen Elizabeth Olympic Park's street furniture to life."
   how_it_works: "How it works"

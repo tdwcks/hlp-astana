@@ -22,6 +22,16 @@ jQuery.fn.extend({
 });
 
 // Lazy Load The Image 
+
+$(document).on('click', '.menu a', function(event){
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top -60
+    }, 500);
+});
+
+// Lazy Load The Image 
 $("img.lazy").lazyload({
 	threshold : 500,
 	effect : "fadeIn"

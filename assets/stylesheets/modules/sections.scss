@@ -68,19 +68,15 @@
 	height: 120vh;
 	max-height: 748px;
 	margin: 0;
+	padding: 90px 0 0 0;
 	background: #EDBF00;
 	position: relative;
 	overflow: hidden;
 
-	.col-6-fake {
-		width: 45%;
-		max-width: 640px;
-		position: absolute;
-	  	top: 43%;
-	  	margin: 0;
-	  	left: 50%;
-	  	@include transform(translateY(-50%) translateX(-50%));
-		color: #fff;
+	.col-6 {
+		float: none;
+		display: block;
+		margin: auto;
 	}
 
 	h1 {
@@ -88,6 +84,7 @@
 		text-align: center;
 		line-height: 1.25;
 		margin-bottom: 50px;
+		color: $colorTwo;
 	}
 
 	.link-btn-one {
@@ -126,6 +123,7 @@
 	}
 
 	.scroll-down-button {
+		display: none;
 		padding-bottom: 20px;
 		text-align: center;
 		font-family: "Gotham-bold", sans-serif;
@@ -157,21 +155,6 @@
 	  border-bottom: 2px solid black;
 	}
 
-	&.video-active {
-		img {
-			opacity: 0.1;
-		}
-
-		.information-holder {
-			opacity: 0;
-		}
-
-		.video-holder {
-			opacity: 1;
-			z-index: 100;
-		}
-	}
-
 	@include mq("medium", "max-width") {
 		.col-4 {
 			width: 350px;
@@ -179,6 +162,7 @@
 
 		.scroll-down-button {
 			bottom: 60px;
+			display: none;
 		}
 
 
@@ -192,24 +176,36 @@
 	}
 
 	@include mq("small", "max-width") {
-		height: 80vh;
+		height: auto;
+		overflow: hidden;
+		margin-top: 68px;
+		max-height: auto;
+		padding: 20px 0 100px 0;
+
+		.col-6 {
+			width: 100%;
+		}
 
 		.scroll-down-button {
 			bottom: 30px;
-		}
-
-		.col-6-fake {
-			top: 40%;
-			@include calc(width, "100% - 60px");
+			display: block;
 		}
 
 		h1 {
 			font-size: 1.4em;
 		}
 
+		.text-row {
+			margin-top: 50px;
+		}
+
 		.col-8 {
 			width: 100%;
-			padding: 190px 0;
+			padding: 20px 0;
+		}
+
+		.shift-2 {
+			margin-left: 0;
 		}
 	}
 
@@ -584,22 +580,29 @@
 		color: #fff;
 	}
 
+	.top-img {
+		position: absolute;
+		top: -25px;
+		left: 0;
+		z-index: 10;
+		width: 210px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+
 	.image-circle {
 		width: 170px;
 		display: block;
 		margin: 0 auto;
 		text-align: center;
 		border: 3px solid #fff;
-		background-color: #DA0979;
 		margin-bottom: 30px;
 
 		img {
 			width: 100%;
 		}
-	}
-
-	.image-circle:after {
-		background-color: #DA0979;
 	}
 
 	@include mq("medium", "max-width") {
@@ -905,7 +908,12 @@
 		margin-top: 40px;
 	}
 
-	.col-3 img {
+	.col-2 {
+		width: 20%;
+		margin: 0;
+	}
+
+	.col-2 img {
 		width: 70%;
 		display: block;
 		margin: 0 auto;
@@ -914,20 +922,21 @@
 	}
 
 	@include mq("small", "max-width") {
+		padding: 40px 0;
 		h4 {
 			text-align: center;
 			margin-bottom: 40px;
 			margin-top: 0px;
 		}
 
-		.col-3 {
-			width: 50%;
+		.col-2 {
+			width: 33.3%;
 			margin-left: 0;
 			padding: 0;
 			margin: 0;
 		}
 
-		.col-3 img {
+		.col-2 img {
 			width: 90%;
 			padding: 0 0;
 
