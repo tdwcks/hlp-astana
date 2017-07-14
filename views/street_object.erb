@@ -1,0 +1,36 @@
+<div class="hero">
+  <div class="inner hero-conversations">
+    <h1>What have people of Austin said to <strong class="street-object-name"><%= @street_object_name %></strong></h1>
+  </div>
+
+  <div class="conversation-demo">
+
+    <div class="bubble question off" id="question-bubble">
+      <div class="bubble-inner">
+        <div class="bubble-heading">Question</div>
+        <div class="text"></div>
+      </div>
+    </div>
+
+    <div class="bubble answer off" id="answer-bubble">
+      <div class="bubble-inner">
+        <div class="bubble-heading">Answer</div>
+        <div class="text"></div>
+      </div>
+    </div>
+
+    <button class="new-question" id="new-question-button" disabled>New Question</button>
+    <button class="next-answer" id="next-answer-button" disabled>Next answer</button>
+  </div>
+</div>
+
+<script src="/assets/object_conversations.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var current_path = document.location.pathname;
+    var match = current_path.match(/\/objects\/([^/]+)\/([^\/]+)/)
+    var street_object_type = decodeURIComponent(match[1].replace("_", " "))
+    var street_object_code = decodeURIComponent(match[2])
+    var conversation_demo = new ConversationDemo(street_object_type, street_object_code);
+  })
+</script>

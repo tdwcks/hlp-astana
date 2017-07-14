@@ -1,0 +1,49 @@
+// =================================================================
+// 	Mediapreview
+// 	Links
+// =================================================================
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.link-btn-one {
+	padding: 16px 20px 16px 20px;
+	@include border-radius(4px);
+	background: $colorOne;
+	color: $colorType;
+	display: block;
+	width: intrinsic;
+	max-width: 180px;
+	color: $colorType;
+	font-family: "Gotham-Bold", sans-serif;
+	font-size: 1em;
+	border: 0;
+
+	&:after {
+		content: "";
+		display: block;
+		width: 17px; 
+		height: 17px;
+		background-image: url('/images/arrow-black.svg');
+		margin-top: 2px;
+		background-size: 100% 100%;
+		background-position: 0 0;
+		float: right;
+		margin-left: 10px;
+	}
+}
+
+.link-exit {
+	width: 25px; 
+	height: 25px;
+	background-image: url('/images/exit.svg');
+	margin-top: 2px;
+	background-size: 100% 100%;
+	background-position: 0 0;
+	display: block;
+	float: right;
+	margin-top: 100px;
+	z-index: 100;
+}

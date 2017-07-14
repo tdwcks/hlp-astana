@@ -1,0 +1,77 @@
+// =================================================================
+// 	Mediapreview
+// 	Forms
+// =================================================================
+
+form {
+	padding-top: 10px;
+
+	.form-half {
+		width: calc(50% - 15px);
+		float: left;
+		margin-right: 30px;
+
+		&:nth-child(even) {
+			margin-right: 0;
+		}
+	}
+
+	input[type="text"], input[type="email"], input[type="submit"], textarea, button {
+		width: 100%;
+		padding: 15px 15px;
+		margin: 20px 0;
+		font-family: $base-font-family;
+		background: #EEF0F1;
+		border: 0;
+		font-size: 0.9em;
+		box-sizing: border-box;
+		border-radius: 0;
+		-webkit-appearance: none;
+   		-moz-appearance: none;
+   		appearance: none;
+
+		&:focus {
+			outline: 0;
+			border: 0;
+			background: darken(#EEF0F1, 5%);
+		}
+	}
+	label {
+		color: $colorType;
+	}
+
+	textarea {
+		resize: none;
+	}
+
+	button {
+		width: intrinsic;
+		padding: 15px 30px;
+		max-width: 150px;
+		background: $colorType;
+		cursor: pointer;
+		color: #fff;
+		float: right;
+
+		&:hover {
+			background: darken($colorType, 10%);
+		}
+	}
+}
+
+#form-messages {
+	float: left;
+	display: block;
+	width: calc(100% - 100px);
+	margin-top: 20px;
+	color: $colorType;
+	line-height: 1.4;
+}
+
+#form-messages.error {
+	color: $colorOne;
+}
+
+#form-messages.success {
+	color: #3FBC33;
+}

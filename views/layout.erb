@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1">
+    <link rel="icon" href="http://www.hellolamppostaustin.com/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/favicon-32.png" type="image/png" />
+    <link rel="stylesheet" href="/assets/style.css">
+    <title><%= @page_title %></title>
+    <meta name="author" content="Pan Studio" />
+    <meta name="description" content="The City Wide Platform for Play" />
+    <meta name="keywords"  content="city, playful, sms, fun, street furniture" />
+  </head>
+  <body>
+
+    <%= erb :_header %>
+
+    <%= yield %>
+
+    <%= erb :_footer %>
+
+  </body>
+</html>

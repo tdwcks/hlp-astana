@@ -1,0 +1,185 @@
+// =================================================================
+// 	Mediapreview
+// 	Grid
+// =================================================================
+
+.grid-container {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  @include calc(width, "100% - 60px");
+  max-width: 1400px;
+
+  @include mq("nano", "max-width") {
+    @include calc(width, "100% - 40px");
+  }
+}
+
+.grid-inner {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  @include calc(width, "100% - 120px");
+  max-width: 1200px;
+
+  @include mq("small", "max-width") {
+    @include calc(width, "100% - 60px");
+  }
+
+  @include mq("nano", "max-width") {
+    @include calc(width, "100% - 40px");
+  }
+}
+
+%clearfix:after {
+    display:block;
+    clear:both;
+    content:'';
+}
+
+$grid-spacing:2%;
+
+@include mq("medium", "max-width") {
+  $grid-spacing:4%;
+}
+
+ @include mq("extra-small", "max-width") {
+    width: 90%;
+  }
+
+.row {
+    @extend %clearfix;
+
+    & + & {
+        margin-top: 30px;
+    }
+}
+
+.right {
+  float: right;
+}
+
+.grid-spacer {
+	width: 100%;
+	height: 1px;
+}
+
+[class^="col-"] {
+    float:left;
+    margin-right:$grid-spacing;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+
+    &:last-child {
+        margin-right:0%;
+    }
+}
+
+.spacer {
+  width: 100%;
+  height: 1px;
+}
+
+.row {
+  clear: both;
+  width: 100%;
+  margin: 30px 0;
+}
+
+.col-8 {
+  position: relative;
+  margin-right: 30px;
+  float: left;
+  @include calc(width, "66.64% - 10px");
+
+  @include mq("small", "max-width") {
+    margin-right: 20px;
+    @include calc(width, "66.64% - 8px");
+  }
+}
+
+.shift-6 {
+  position: relative;
+  @include calc(margin-left, "50% + 15px");
+
+  @include mq("small", "max-width") {
+    @include calc(margin-left, "66.64% - 10px");
+  }
+}
+
+.col-6 {
+  position: relative;
+  margin-right: 30px;
+  float: left;
+  @include calc(width, "50% - 15px");
+
+  @include mq("small", "max-width") {
+    @include calc(width, "50% - 15px");
+  }
+}
+
+.shift-4 {
+  position: relative;
+  @include calc(margin-left, "33.3% + 10px");
+
+  @include mq("small", "max-width") {
+    @include calc(margin-left, "66.64% - 8px");
+  }
+}
+
+.col-4 {
+  margin-right: 30px;
+  float: left;
+  @include calc(width, "33.3% - 20px");
+
+  @include mq("small", "max-width") {
+    @include calc(width, "50% - 10px");
+  }
+}
+
+.shift-3 {
+  @include calc(margin-left, "25% + 6px");
+}
+
+.col-3 {
+  margin-right: 24px;
+  float: left;
+  @include calc(width, "25% - 18px");
+
+  &:nth-child(4) {
+    margin-right: 0;
+  }
+
+  @include mq("small", "max-width") {
+    @include calc(width, "50% - 18px");
+    
+    &:nth-child(2) {
+      margin-right: 0px;
+    }
+  }
+  @include mq("extra-small", "max-width") {
+    width: 100%;
+  }
+}
+
+.shift-2 {
+  @include calc(margin-left, "16.6667% + 4px");
+}
+
+.col-2 {
+  margin-right: 24px;
+  float: left;
+  @include calc(width, "16.6667% - 25px");
+}
+
+.shift-1 {
+  @include calc(margin-left, "8.33% + 2px");
+  display: block;
+}
+
+.col-1 {
+    @include calc(width, "8.33% - 24px");
+    float: left;
+    display: block;
+}

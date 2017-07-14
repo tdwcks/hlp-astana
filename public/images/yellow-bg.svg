@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="757px" viewBox="0 0 1440 757" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>Yellow-background</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1440" height="757"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Yellow-background">
+            <g id="Line-+-Line-+-Line-Mask">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#EDBF00" xlink:href="#path-1"></use>
+                <polyline id="Line" fill="#000000" opacity="0.02" mask="url(#mask-2)" points="147.508847 -112.743452 1279.10279 980.024112 1506.3125 955.632812 1475.80469 -235.414062"></polyline>
+                <polygon id="Line" fill="#2A2A2A" opacity="0.03" mask="url(#mask-2)" points="-120 870.787397 946.376067 -159 1562.00781 1.1484375 1482.15625 843.046875"></polygon>
+                <path d="M466,-300 L1052.59886,758.252349 L1540.97656,758.252349 C1540.97656,758.252349 1468.29242,1.18037693 1440,-26.671875 C1109.9669,-351.570406 466,-300 466,-300 Z" id="Line" fill="#1C1C1C" opacity="0.01" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>
