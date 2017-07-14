@@ -9,6 +9,7 @@ html {
 
 body {
 	position: relative;
+	background: $colorOne;
 
 	&.is-exiting {
 		background: #fff;

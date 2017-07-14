@@ -38,8 +38,8 @@ header {
 	}
 
 	.menu {
-		margin-top:8px;
-		margin-right: 50px;
+		margin-top:6px;
+		margin-right: 45px;
 
 		ul li  {
 			margin-right: 25px;
@@ -47,7 +47,7 @@ header {
 
 		a {
 			color: $colorTwo;
-			font-size: 1em;
+			font-size: 1.1em;
 			font-family: gotham-bold;
 			cursor: pointer;
 			border-bottom: 2px solid $colorOne;
@@ -62,8 +62,8 @@ header {
 
 		ul li a {
 			cursor: pointer;
-			width: 40px;
-			height: 40px;
+			width: 38px;
+			height: 38px;
 			display: block;
 			@include border-radius(100%);
 			background-position: center center;

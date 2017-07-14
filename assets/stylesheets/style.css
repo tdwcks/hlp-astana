@@ -34,7 +34,8 @@ html {
   font-size: 1.1em; }
 
 body {
-  position: relative; }
+  position: relative;
+  background: #EDBF00; }
   body.is-exiting {
     background: #fff; }
 
@@ -704,13 +705,13 @@ header {
       float: left;
       margin-left: 10px; }
   header .menu {
-    margin-top: 8px;
-    margin-right: 50px; }
+    margin-top: 6px;
+    margin-right: 45px; }
     header .menu ul li {
       margin-right: 25px; }
     header .menu a {
       color: #2A2A2A;
-      font-size: 1em;
+      font-size: 1.1em;
       font-family: gotham-bold;
       cursor: pointer;
       border-bottom: 2px solid #EDBF00; }
@@ -718,8 +719,8 @@ header {
       border-bottom: 2px solid #2A2A2A; }
   header .country-picker ul li a {
     cursor: pointer;
-    width: 40px;
-    height: 40px;
+    width: 38px;
+    height: 38px;
     display: block;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
