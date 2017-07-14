@@ -4,24 +4,85 @@
 // =================================================================
 
 header {
-	position: absolute;
-	z-index: 10;
 	width: 100%;
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	padding: 10px 0;
+	background: $colorOne;
+	height: 50px;
 
-	img {
-		width: 100px;
-		margin-top: 80px;
+	.logo img {
+		width: 160px;
 	}
 
-	.link-exit {
-		z-index: -100;
-		opacity: 0;
+	nav {
+		float: right;
+		z-index: 20;
+
+		ul {
+			padding: 0;
+			margin: 0;
+		}
+
+		ul li {
+			list-style-type: none;
+			float: left;
+			margin-left: 10px;
+		}
 	}
 
-	&.video-active {
-		.link-exit {
-			z-index: 70;
-			opacity: 1;
+	.menu {
+		margin-top:8px;
+		margin-right: 10px;
+
+		ul li  {
+			margin-right: 25px;
+		}
+
+		a {
+			color: $colorTwo;
+			font-size: 1.1em;
+			font-family: gotham-bold;
+			cursor: pointer;
+			border-bottom: 2px solid $colorOne;
+		}
+
+		a:hover {
+			border-bottom: 2px solid $colorTwo;
+		}
+	}
+
+	.country-picker {
+
+		ul li a {
+			cursor: pointer;
+			width: 40px;
+			height: 40px;
+			display: block;
+			@include border-radius(100%);
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: 80px 80px;
+			border: 2px solid $colorTwo;
+		}
+
+		ul li a.en {
+			background-image: url('/images/flag-en.svg');
+		}
+
+		ul li a.kz {
+			background-image: url('/images/flag-kz.svg');
+		}
+
+		ul li a.ru {
+			background-image: url('/images/flag-ru.svg');
+		}
+	}
+
+	@include mq("medium", "max-width") {
+		.menu {
+			display: none;
 		}
 	}
 

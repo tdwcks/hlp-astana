@@ -539,7 +539,7 @@
 }
 
 .process {
-	background: #DA0979;
+	background: lighten($colorTwo, 5%);
 	height: auto;
 	overflow: auto;
 	width: 100%;
