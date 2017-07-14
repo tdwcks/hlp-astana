@@ -1,0 +1,41 @@
+kz:
+  hello_astana: "Hello Astana - kz"
+  home_title: "Hello Astana - kz"
+  
+  description: "Hello Lamp Post ran for six weeks in November and December 2016, bringing Queen Elizabeth Olympic Park's street furniture to life."
+  how_it_works: "How it works"
+
+  pick_an_object: "Pick An Object"
+  pick_an_object_text: "Look out for an item ofc street furniture, object or building with a code on it."
+
+  say_hello: "Say Hello"
+  say_hello_text: "Send a text in this format: Hello object #code e.g. “Hello Lamp Post #B6291”."
+
+  keep_talking: "Keep Talking"
+  keep_talking_text: "You’ll soon get a reply. Answer the object’s questions and learn what other people have to say."
+
+  information: "information"
+  information_title: "Ever wondered what it might be like to have a conversation with a lamp post, letterbox or building?"
+  information_text: "Hello Lamp Post is waking up for the first time in London in and around Queen Elizabeth Olympic Park. With a range of street objects and buildings waking up and talking, Hello Lamp Post encourages you to look at the area in which you live, work or play with fresh eyes and engage with objects you might sometimes take for granted. Why not tell the London Aquatics Centre about the amazing view, or tell the bench you’re sitting on about your day? Hello Lamp Post has already seen success in Singapore, Austin and Bristol."
+  information_cta: "Show More"
+
+  more_information: "More information"
+  more_information_text_1: "If you look closely, most street objects have a manufacturer or maintenance reference code on them. These codes are used by operators to distinguish one object from another. Hello Lamp Post gives a new use to these existing codes by allowing localised conversations in public spaces."
+  more_information_text_2: "You can have a chat with any object- post boxes, bollards, bus stops, boats, utility boxes, bridges, telegraph poles - and of course lamp posts themselves! What’s more, for the first time ever, you’ll also be able to speak to the iconic buildings and features of the Park- including the London Stadium, Lee Valley VeloPark, the London Aquatics Centre and the Olympic Rings."
+  more_information_text_3: "The interaction takes the form of a conversation. The objects are curious about the world they find themselves in and want to ask you questions about it. The response they receive are then shared with other players meaning an object understands the personality and people of the local area."
+  more_information_text_4: "Conversations can be started from any mobile phone that sends text (SMS) messages. It’s free to play (standard SMS and data rates apply) and it’s suitable for all ages."
+  more_information_text_5: "Please note, as Hello Lamp Post is geared towards sharing thoughts and opinions within a fun conversation, the objects themselves won’t give operational information such as opening times and ticket prices."
+  
+  contact_us: "Contact Us"
+  contact_us_title: "Talk to us"
+  contact_us_text_1: "Hello Lamp Post has been commissioned for Queen Elizabeth Olympic Park by the London Legacy Development Corporation and with funding from the EU Climate KIC initiative."
+  contact_us_text_2: "Hello Lamp Post was first commissioned for Watershed’s Playable City Award 2013 and ran for 8 weeks in Bristol. The project was developed with Tom Armitage and Gyorgyi Galik."
+  contact_us_text_3: "If you want to get involved with Hello Lamp Post and find out what your city has to say, please get in touch."
+  contact_us_cta: "Get In Touch"
+  
+  hello_lampost_brighton: "We woke up street furniture in September 2016 as part of Brighton Digital Festival."
+  hello_lampost_austin: "Hello Lamp Post in Austin in March 2015 as part of SXSW Festival."
+  hello_lampost_singapore: "Hello Lamp Post in Singapore in October 2015 as part of SG15."
+  hello_lampost_bristol: "Hello Lamp Post premiered in Bristol 2013 where 25,000 text messages were sent in just eight weeks."
+
+  to_top: "To Top"

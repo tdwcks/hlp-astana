@@ -1,12 +1,23 @@
 require 'open-uri'
+require 'i18n'
 require 'sinatra'
 
 class HelloLamppostWebsite < Sinatra::Base
+
+  configure do
+    I18n.load_path = Dir[File.join(settings.root, 'config', 'locales', '*.yml')]
+    I18n.default_locale = :en
+    I18n.backend.load_translations
+  end
 
   helpers do
 
     def link_html_class(path)
       request.path_info.start_with?(path) ? 'current' : ''
+    end
+
+    def locale_path(path)
+      return "/#{I18n.locale}#{path}"
     end
 
     def code_parser(code)
@@ -26,6 +37,23 @@ class HelloLamppostWebsite < Sinatra::Base
 
     end
 
+  end
+
+  before /.*/ do
+
+    matches = request.path_info.match(/\A\/(kz|en|ru)(.*)/)
+
+    if matches
+      I18n.locale       = matches[1]
+      request.path_info = matches[2]
+    else
+      redirect to('/ru' + request.path_info)
+    end
+  end
+
+  get '/' do
+    @page_title = I18n.t(:home_title)
+    erb :index
   end
 
   get '/questions/random' do
