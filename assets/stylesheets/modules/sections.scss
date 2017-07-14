@@ -122,13 +122,12 @@
 		z-index: 50;
 	}
 
-	.scroll-down-button {
-		display: none;
+	.scroll-down-button {	
 		padding-bottom: 20px;
 		text-align: center;
 		font-family: "Gotham-bold", sans-serif;
 		color: #fff;
-		display: block;
+		display: none;
 		width: 100%;
 		z-index: 10;
 		position: absolute;

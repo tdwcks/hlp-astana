@@ -693,7 +693,7 @@ header {
   header.nav-up {
     top: -120px; }
   header .logo img {
-    width: 160px; }
+    width: 145px; }
   header nav {
     float: right;
     z-index: 20; }
@@ -886,12 +886,11 @@ a {
   .hero .information-holder {
     z-index: 50; }
   .hero .scroll-down-button {
-    display: none;
     padding-bottom: 20px;
     text-align: center;
     font-family: "Gotham-bold", sans-serif;
     color: #fff;
-    display: block;
+    display: none;
     width: 100%;
     z-index: 10;
     position: absolute;
