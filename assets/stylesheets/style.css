@@ -1487,10 +1487,7 @@ a {
   .supporters h4 {
     color: #fff;
     margin-top: 40px; }
-  .supporters .col-2 {
-    width: 20%;
-    margin: 0; }
-  .supporters .col-2 img {
+  .supporters .col-3 img {
     width: 70%;
     display: block;
     margin: 0 auto;
@@ -1503,12 +1500,12 @@ a {
         text-align: center;
         margin-bottom: 40px;
         margin-top: 0px; }
-      .supporters .col-2 {
-        width: 33.3%;
+      .supporters .col-3 {
+        width: 50%;
         margin-left: 0;
         padding: 0;
         margin: 0; }
-      .supporters .col-2 img {
+      .supporters .col-3 img {
         width: 90%;
         padding: 0 0; } }
 
