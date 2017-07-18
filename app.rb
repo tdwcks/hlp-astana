@@ -6,7 +6,7 @@ class HelloLamppostWebsite < Sinatra::Base
 
   configure do
     I18n.load_path = Dir[File.join(settings.root, 'config', 'locales', '*.yml')]
-    I18n.default_locale = :en
+    I18n.default_locale = :kz
     I18n.backend.load_translations
   end
 
@@ -41,13 +41,13 @@ class HelloLamppostWebsite < Sinatra::Base
 
   before /.*/ do
 
-    matches = request.path_info.match(/\A\/(kz|en|ru)(.*)/)
+    matches = request.path_info.match(/\A\/(kz|ru|en)(.*)/)
 
     if matches
       I18n.locale       = matches[1]
       request.path_info = matches[2]
     else
-      redirect to('/ru' + request.path_info)
+      redirect to('/kz' + request.path_info)
     end
   end
 
