@@ -10,8 +10,8 @@ kz:
   pick_an_object: "Сөйлескің келетін ғимараттың мекен-жайын біл"
   pick_an_object_text: "Көшенің атауы мен үйдің нөмірін біл"
 
-  say_hello: "Open Messenger"
-  say_hello_text: "Open messenger and search for “Salemastana2017"
+  say_hello: "Facebook Messenger ашыңыз"
+  say_hello_text: "Facebook Messeger-ін ашып, SALEMASTANA2017 чатын тап"
 
   keep_talking: "Say Hello"
   keep_talking_text: "Send a greeting in this format and wait for a reply: “Hello + streetname + #number” (e.g. Hello Respublika #3)"

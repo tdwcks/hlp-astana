@@ -10,8 +10,8 @@ ru:
   pick_an_object: "Если хочешь пообщаться узнай адрес дома"
   pick_an_object_text: "Ищи знак с четким обозначением улицы и номера"
 
-  say_hello: "Open Messenger"
-  say_hello_text: "Open messenger and search for “Salemastana2017"
+  say_hello: "Откройте Facebook Messenger"
+  say_hello_text: "Найди чат SALEMASTANA2017 в Facebook Messenger"
 
   keep_talking: "Say Hello"
   keep_talking_text: "Send a greeting in this format and wait for a reply: “Hello + streetname + #number” (e.g. Hello Respublika #3)"
