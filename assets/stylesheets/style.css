@@ -859,6 +859,7 @@ a {
     margin: auto; }
   .hero h1 {
     font-size: 1.5em;
+    font-weight: 600;
     text-align: center;
     line-height: 1.25;
     margin-bottom: 50px;
@@ -969,8 +970,7 @@ a {
       margin: 0 auto;
       color: #fff; }
     .hero.message .text-row .col-6 h1 {
-      font-size: 1.45em;
-      font-weight: 600;}
+      font-size: 1.45em;}
   .hero.message .bubble {
     margin-top: 100px;
     width: -moz-calc(50% - 15px);
