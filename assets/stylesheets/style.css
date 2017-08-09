@@ -1308,7 +1308,13 @@ a {
       .process .image-circle {
         width: 180px; }
       .process .process-item:after {
-        display: none; } }
+        display: none; } 
+      .process .right-img{
+        top: 55px; }
+      .process .top-img{
+        margin-right: 15px; 
+        top: -22px;
+        right: -1px;}}
 
 .information {
   width: 100%;
@@ -1444,6 +1450,7 @@ a {
   .contact h1 {
     color: #2A2A2A;
     line-height: 1.2;
+    font-weight: 600;
     margin-bottom: 30px; }
   .contact p {
     color: #2A2A2A;
