@@ -7,8 +7,8 @@ ru:
   description: "Районы Астаны оживают, и они хотят поговорить с тобой! Проект “Привет, Астана” пройдет с 10 августа по 30 сентября по всему городу."
   how_it_works: "Как это работает"
 
-  pick_an_object: "Choose A Street Sign"
-  pick_an_object_text: "Look out for a sign with a clearly displayed street and number"
+  pick_an_object: "Если хочешь пообщаться узнай адрес дома"
+  pick_an_object_text: "Ищи знак с четким обозначением улицы и номера"
 
   say_hello: "Open Messenger"
   say_hello_text: "Open messenger and search for “Salemastana2017"

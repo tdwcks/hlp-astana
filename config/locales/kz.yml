@@ -7,8 +7,8 @@ kz:
   description: "Астана қаласы жанданып, сенімен сөйлескісі келеді. Сәлем Астана қаланың барлық аумағын қамтып, 10-шы тамыздан 30-шы қыркүйекке дейін жалғасады."
   how_it_works: "Бұл қалай жұмыс істейді"
 
-  pick_an_object: "Choose A Street Sign"
-  pick_an_object_text: "Look out for a sign with a clearly displayed street and number"
+  pick_an_object: "Сөйлескің келетін ғимараттың мекен-жайын біл"
+  pick_an_object_text: "Көшенің атауы мен үйдің нөмірін біл"
 
   say_hello: "Open Messenger"
   say_hello_text: "Open messenger and search for “Salemastana2017"
