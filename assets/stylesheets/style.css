@@ -682,6 +682,7 @@ form {
   color: #3FBC33; }
 
 header {
+  font-family: sans-serif;
   width: 100%;
   position: fixed;
   z-index: 100;
