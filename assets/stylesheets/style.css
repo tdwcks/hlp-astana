@@ -1244,7 +1244,7 @@ a {
       color: #fff; }
     .process .process-item:after {
       content: "";
-      display: block;
+      display: none; /* block */
       width: 100px;
       top: 80px;
       right: -160px; /* -115 */
