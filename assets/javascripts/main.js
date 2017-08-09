@@ -53,7 +53,7 @@ $( ".js-scroll-down-button" ).on( "click", function() {
 
 $( ".js-learn-more" ).on( "click", function() {
 	$(this).toggleClass("active");
-	$(this).toggleText(<%= I18n.t(:information_cta_1) %>, <%= I18n.t(:information_cta_2) %>);
+	$(this).toggleText('Show More', 'Show Less');
 	$(".how-to-play").toggleClass("active");
 	$(".what-to-expect").toggleClass("active");
 	$('html, body').animate({
