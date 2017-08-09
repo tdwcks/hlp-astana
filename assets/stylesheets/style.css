@@ -718,7 +718,7 @@ header {
       border-bottom: 2px solid #EDBF00; }
     header .menu a:hover {
       border-bottom: 2px solid #2A2A2A;
-      /* transition: all 0.2s ease-in-out; */ }
+      transition: all 0.2s ease-in-out;}
   header .country-picker ul li a {
     cursor: pointer;
     width: 38px;
