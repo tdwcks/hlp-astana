@@ -1262,9 +1262,16 @@ a {
     z-index: 10;
     width: 210px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 25px; /* auto */
     left: 0;
     right: 0; }
+  .process .right-img {
+    position: absolute;
+    top: 40px;
+    z-index: 20;
+    width: 100px;
+    right: -10px;
+  }
   .process .image-circle {
     width: 170px;
     display: block;
@@ -1273,6 +1280,7 @@ a {
     border: 3px solid #fff;
     margin-bottom: 30px; }
     .process .image-circle img {
+      transform: scaleX(-1);
       width: 100%; }
   @media (max-width: 1130px) {
     .process .process-item:after {
