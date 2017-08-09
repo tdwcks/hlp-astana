@@ -24,7 +24,8 @@ kz:
   information_title: "Өзің тұратын қалаңмен сөйлескен қалай екен, деген ойлар болды ма сенде?"
   information_text: "Әлемнің қалаларына жан бітіп, олар өз тұрғындарымен сөйлесіп жатыр (Жапония, Сингапур, Ұлыбритания, Франция және АҚШ). Енді Астана аудандары да жанданды және өздері туралы бәрін білгісі келеді. Таңертең  тұрғындар қайда асығады? Достармен кездесіп, көңіл көтеретін ең жақсы орын қайда? Бұл жерде бұрын не болды? Әркімнің болашаққа деген арманы қандай?"
   infomation_text_2: "From the 10th of August until the 31st, you will be able to talk to your local neighbourhood (and all the others around the city) and also learn what your neighbours also have to say."
-  information_cta: "көрсету"
+  information_cta_1: "көрсету"
+  information_cta_2: "қайыру"
 
   more_information: "Көбірек ақпарат"
   more_information_text_1: "Көбінесе жазуларға назар аудармаса да, қала бойынша жоғарыда ілінген мыңдаған белгілер бар. Сәлем Астана сені өз үйіңді жаңа жақтан көруге шақырады."
