@@ -4,9 +4,9 @@ en:
   hello_astana: "Hello Astana - en"
   home_title: "Hello Astana - en"
 
-  how_it_works: "How It Works"
-  information: "Information"
-  contact: "Contact"
+  how_it_works_link: "How It Works"
+  information_link: "Information"
+  contact_link: "Contact"
   
   description: "The neighbourhoods of Astana are waking up and they want to talk to you! Hello Astana will run across the whole city, from August 10th to August 31st."
   how_it_works: "How it works"
@@ -27,6 +27,7 @@ en:
   information_cta_1: "Show More"
   information_cta_2: "Show Less"
 
+  about_us: ""
   more_information: "More information"
   more_information_text_1: "Though most of the time they go unnoticed, across the city there are thousands of sign posts hovering above our heads. Hello Astana invites you to see your home in a new way, by giving a new meaning and usage to these signs."
   more_information_text_2: "We are hijacking/commandeering the signs of Astana and using them in a unique way. In the same way that hashtags (#) work in social media, we can use the street names and numbers of each neighbourhood to focus conversations on a particular theme - in this case, very specific locations."
