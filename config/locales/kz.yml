@@ -4,9 +4,9 @@ kz:
   hello_astana: "Hello Astana - kz"
   home_title: "Hello Astana - kz"
 
-  how_it_works: "Бұл қалай жұмыс істейді"
-  information: "Ақпарат"
-  contact: "Байланыс"
+  how_it_works_link: "Бұл қалай жұмыс істейді"
+  information_link: "Ақпарат"
+  contact_link: "Байланыс"
   
   description: "Астана қаласы жанданып, сенімен сөйлескісі келеді. Сәлем Астана қаланың барлық аумағын қамтып, 10-шы тамыздан 30-шы қыркүйекке дейін жалғасады."
   how_it_works: "Бұл қалай жұмыс істейді"

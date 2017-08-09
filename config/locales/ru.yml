@@ -4,9 +4,9 @@ ru:
   hello_astana: "Hello Astana - ru"
   home_title: "Hello Astana - ru"
 
-  how_it_works: "Как это работает"
-  information: "Информация"
-  contact: "Контакт"
+  how_it_works_link: "Как это работает"
+  information_link: "Информация"
+  contact_link: "Контакт"
   
   description: "Районы Астаны оживают, и они хотят поговорить с тобой! Проект “Привет, Астана” пройдет с 10 августа по 30 сентября по всему городу."
   how_it_works: "Как это работает"
