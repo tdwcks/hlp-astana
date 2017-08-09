@@ -11,7 +11,7 @@ en:
   pick_an_object_text: "Look out for a sign with a clearly displayed street and number"
 
   say_hello: "Say Hello"
-  say_hello_text: "Send an object in this format: Hello + street name + #number (E.g. „Hello Respublika #3”) to the number +7(701)xxx xx xx"
+  say_hello_text: "Open messenger and search for “Salemastana2017"
 
   keep_talking: "Keep Talking"
   keep_talking_text: "You’ll soon get a reply. Answer the neighbourhood's questions and learn what other people have to say. Once you’ve spoken to one neighbourhood, see how many others you can find!"
