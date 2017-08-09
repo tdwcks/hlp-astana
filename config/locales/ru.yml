@@ -13,8 +13,8 @@ ru:
   say_hello: "Откройте Facebook Messenger"
   say_hello_text: "Найди чат SALEMASTANA2017 в Facebook Messenger"
 
-  keep_talking: "Say Hello"
-  keep_talking_text: "Send a greeting in this format and wait for a reply: “Hello + streetname + #number” (e.g. Hello Respublika #3)"
+  keep_talking: "Скажи Привет!"
+  keep_talking_text: "Отправь текст «Привет НАЗВАНИЕ УЛИЦЫ #НОМЕР ДОМА». Например: «Привет Самал #7»"
 
   information: "information"
   information_title: "Have you ever wondered what it would be like to talk to the city that you live in?"

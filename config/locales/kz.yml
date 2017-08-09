@@ -13,8 +13,8 @@ kz:
   say_hello: "Facebook Messenger ашыңыз"
   say_hello_text: "Facebook Messeger-ін ашып, SALEMASTANA2017 чатын тап"
 
-  keep_talking: "Say Hello"
-  keep_talking_text: "Send a greeting in this format and wait for a reply: “Hello + streetname + #number” (e.g. Hello Respublika #3)"
+  keep_talking: "Сәлем де!"
+  keep_talking_text: "«Сәлем КӨШЕНІҢ АТЫ #ҮЙ НӨМІРІ» мәтінін жібер. Мысалы: «Сәлем Самал #7»"
 
   information: "information"
   information_title: "Have you ever wondered what it would be like to talk to the city that you live in?"
