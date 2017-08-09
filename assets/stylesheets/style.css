@@ -682,7 +682,6 @@ form {
   color: #3FBC33; }
 
 header {
-  font-family: sans-serif;
   width: 100%;
   position: fixed;
   z-index: 100;
@@ -713,7 +712,9 @@ header {
     header .menu a {
       color: #2A2A2A;
       font-size: 1.1em;
-      font-family: gotham-bold;
+      font-family: gotham-bold, sans-serif;
+      font-weight: 600;
+      
       cursor: pointer;
       border-bottom: 2px solid #EDBF00; }
     header .menu a:hover {
