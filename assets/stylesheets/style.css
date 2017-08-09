@@ -755,7 +755,9 @@ header {
         display: block;
         margin: 25px auto;
         float: none; } }
-
+  @media (max-width: 330px) {
+      header .logo img {
+        width: 100px; }}
 a {
   cursor: pointer;
   text-decoration: none; }
