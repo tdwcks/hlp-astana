@@ -714,7 +714,6 @@ header {
       font-size: 1.1em;
       font-family: gotham-bold, sans-serif;
       font-weight: 600;
-      
       cursor: pointer;
       border-bottom: 2px solid #EDBF00; }
     header .menu a:hover {
@@ -970,7 +969,8 @@ a {
       margin: 0 auto;
       color: #fff; }
     .hero.message .text-row .col-6 h1 {
-      font-size: 1.45em; }
+      font-size: 1.45em;
+      font-weight: 600;}
   .hero.message .bubble {
     margin-top: 100px;
     width: -moz-calc(50% - 15px);
@@ -1240,6 +1240,7 @@ a {
     position: relative; }
     .process .process-item h4 {
       font-family: "Gotham-Bold", sans-serif;
+      font-weight: 600;
       color: #fff;
       margin-bottom: 10px; }
     .process .process-item p, .process .process-item span {
@@ -1336,7 +1337,8 @@ a {
   .information h1 {
     color: #44BFEF;
     line-height: 1.2;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    font-weight: 600; }
   .information p {
     color: #fff;
     opacity: 0.8; }
