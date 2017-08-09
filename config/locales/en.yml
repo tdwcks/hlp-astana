@@ -7,14 +7,14 @@ en:
   description: "The neighbourhoods of Astana are waking up and they want to talk to you! Hello Astana will run across the whole city, from August 5th to August 31st."
   how_it_works: "How it works"
 
-  pick_an_object: "Find A Street Sign"
+  pick_an_object: "Choose A Street Sign"
   pick_an_object_text: "Look out for a sign with a clearly displayed street and number"
 
-  say_hello: "Say Hello"
+  say_hello: "Open Messenger"
   say_hello_text: "Open messenger and search for “Salemastana2017"
 
-  keep_talking: "Keep Talking"
-  keep_talking_text: "You’ll soon get a reply. Answer the neighbourhood's questions and learn what other people have to say. Once you’ve spoken to one neighbourhood, see how many others you can find!"
+  keep_talking: "Say Hello"
+  keep_talking_text: "Send a greeting in this format and wait for a reply: “Hello + streetname + #number” (e.g. Hello Respublika #3)"
 
   information: "information"
   information_title: "Have you ever wondered what it would be like to talk to the city that you live in?"
