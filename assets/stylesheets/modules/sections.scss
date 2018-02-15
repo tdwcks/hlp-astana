@@ -60,7 +60,7 @@
 			font-size: 12px;
 			width: 85%;
 		}
-	}	
+	}
 }
 
 .hero {
@@ -122,7 +122,7 @@
 		z-index: 50;
 	}
 
-	.scroll-down-button {	
+	.scroll-down-button {
 		padding-bottom: 20px;
 		text-align: center;
 		font-family: "Gotham-bold", sans-serif;
@@ -258,13 +258,13 @@
 
 	.bubble.question {
 	  left: 0;
-	  @include transform(translateX(0%));
+	  transform: translateX(0%);
 	  @include transition(all, 0.5s, ease-in-out);
 	}
 
 	.bubble.answer {
 	  right: 0;
-	  @include transform(translateX(0%));
+	  transform: translateX(0%);
 	  @include transition(all, 0.5s, ease-in-out);
 	}
 
@@ -315,7 +315,7 @@
 		&:after {
 			top: auto;
 			bottom: -30px;
-			@include transform(rotate(180deg));
+			transform: rotate(180deg);
 			right: 0;
 			left: auto;
 		}
@@ -332,13 +332,13 @@
 	}
 
 	.bubble.answer.off {
-	  @include transform(translateX(150%));
+	  transform: translateX(150%);
 	  right: 0;
 	  @include transition(all, 0.5s, ease-in-out);
 	}
 
 	.bubble.question.off {
-	  @include transform(translateX(-150%));
+	  transform: translateX(-150%);
 	  left: 0;
 	  @include transition(all, 0.5s, ease-in-out);
 	}
@@ -386,7 +386,7 @@
    		&:after {
 			content: "";
 			display: block;
-			width: 17px; 
+			width: 17px;
 			height: 17px;
 			background-image: url('/images/arrow-yellow.svg');
 			margin-top: 2px;
@@ -399,7 +399,7 @@
 
    	button.new-question {
    		&:after {
-   			@include transform(rotate(180deg));
+   			transform: rotate(180deg);
    			float: left;
    			background-image: url('/images/arrow-blue.svg');
    			margin-left: 0px;
@@ -436,8 +436,8 @@
 		font-family: "Gotham-bold", sans-serif;
 		color: #fff;
 	  height: 25px;
-	  padding-top: 8px; 
-	  padding-left: 10px; 
+	  padding-top: 8px;
+	  padding-left: 10px;
 	  padding-right: 10px;
 	  position: absolute;
 	  top: 50px; right: 25px;
@@ -483,7 +483,7 @@
 			}
 		}
 
-		.bubble { 
+		.bubble {
 			width: 100%;
 			font-size: 0.8em;
 		}
@@ -503,7 +503,7 @@
 		.bubble.answer {
 	  		top: 220px;
 		}
-	}	
+	}
 }
 
 .hero.video {
@@ -520,7 +520,7 @@
 
 	.image-bottom {
 		top: 0;
-		@include transform(rotate(180deg));
+		transform: rotate(180deg);
 		bottom: auto;
 	}
 
@@ -685,12 +685,12 @@
 	}
 
 	.link-btn-one:after {
-		@include transform(rotate(90deg));
+		transform: rotate(90deg);
 		@include transition(all, 0.3s, ease-in-out);
 	}
 
 	.link-btn-one.active:after {
-		@include transform(rotate(-90deg));
+		transform: rotate(-90deg);
 	}
 
 	.right-block {

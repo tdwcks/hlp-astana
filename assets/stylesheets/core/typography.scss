@@ -14,8 +14,25 @@
 // 		Font Face yeah
 // =================================================================
 
-	@include font-face(Gotham-bold, fonts/gotham-bold-webfont);
-	@include font-face(Gotham, fonts/gotham-book-webfont);
+@font-face {
+  font-family: 'Gotham-bold';
+  src: url('fonts/gotham-bold-webfont.eot'); /* IE9 Compat Modes */
+  src: url('fonts/gotham-bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/gotham-bold-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/gotham-bold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/gotham-bold-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/gotham-bold-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('fonts/gotham-book-webfont.eot'); /* IE9 Compat Modes */
+  src: url('fonts/gotham-book-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/gotham-book-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/gotham-book-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/gotham-book-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/gotham-book-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
 
 // 		Base Font
 // =================================================================

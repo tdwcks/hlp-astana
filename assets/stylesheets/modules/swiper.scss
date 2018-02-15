@@ -139,7 +139,7 @@
 .swiper-pagination-bullet-active {
   opacity: 1;
   background: #fff;
-  @include transform(rotate(45deg));
+  transform: rotate(45deg);
 }
 .swiper-pagination-white .swiper-pagination-bullet-active {
   background: #fff;
@@ -200,7 +200,7 @@
 
 .swiper-button-prev {
   left: -22px;
-  @include transform(rotate(-180deg));
+  transform: rotate(-180deg);
   margin-right: 10px;
 }
 
